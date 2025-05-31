@@ -1,0 +1,10 @@
+services:
+  lora-metrics-udp-to-mqtt:
+    container_name: lora-metrics-udp-to-mqtt
+    restart: unless-stopped
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    env_file:
+      #ENV PUBLIC
+      - ./produccion.env
