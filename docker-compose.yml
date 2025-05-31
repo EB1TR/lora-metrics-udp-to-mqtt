@@ -8,3 +8,5 @@ services:
     env_file:
       #ENV PUBLIC
       - ./produccion.env
+    ports:
+      - "514:514/udp"
