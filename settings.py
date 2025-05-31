@@ -2,8 +2,7 @@
 # pylint: disable=locally-disabled, multiple-statements
 # pylint: disable=fixme, line-too-long, invalid-name
 # pylint: disable=W0703
-
-__author__ = 'EB1TR'
+# pylint: disable=W0605
 
 import sys
 from os import environ, path
